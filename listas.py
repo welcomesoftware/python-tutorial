@@ -35,7 +35,11 @@ print(mi_lista)
 print()
 
 print("Agregar varios elementos a la lista lista.extend(nueva_lista[])")
-nueva_lista = ["Carlos", "German", "Moisa", "Saul", "Marbella", "Po", "Pipa","Checho","Fercho", "Breco", "Discipulo", "Mini Po"]
+nueva_lista = [
+    "Carlos", "German", "Moisa", "Saul", "Marbella", "Po", "Pipa",
+    "Checho","Fercho", "Breco", "Discipulo", "Mini Po"
+]
+
 mi_lista.extend(nueva_lista)
 print(mi_lista, "\n")
 
@@ -63,3 +67,18 @@ print(mi_lista, "\n")
 
 print("Repetir una lista n veces: lista * 3")
 print(mi_lista[:] * 3, "\n")
+
+print("Limpiar una lista: lista.clear()")
+lista.clear()
+print(lista)
+
+print("Ordenar los elementos de una lista: lista.sort()")
+colores = ['verde','azul','amarillo', 'rojo','gris']
+colores.sort()
+print(colores)
+
+colores.sort(reverse=True)
+print(colores)
+
+r=list(range(1,1000))
+print(r)
