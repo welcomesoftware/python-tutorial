@@ -30,3 +30,8 @@ lista.
 	Formatean Strings
 	Pueden utilizarse como llaves en un diccionario
 
+### Sintaxis de las tuplas
+
+```
+nombre_tupla = (elem1, elem2, elem3, ...)
+```
