@@ -28,10 +28,23 @@ lista.
 	Más rápidas
 	Menos espacio en memoria *Optimización*
 	Formatean Strings
-	Pueden utilizarse como llaves en un diccionario
+	Pueden utilizarse como claves en un diccionario
 
 ### Sintaxis de las tuplas
 
 ```
 nombre_tupla = (elem1, elem2, elem3, ...)
+```
+
+## Diccionarios en python
+
+Los diccionarios son una estructura de datos parecida a las listas y las tuplas
+la característica principal, es que los datos se almacenan con una clave, de 
+forma que se crea una clave:valor para cada elemento almacenado. Los elementos 
+almacenados no estan ordenados, debido a que cada clave es única.
+
+### Sintaxis de los diccionarios
+
+```
+nombre_diccionario = {'clave':'valor', 'clave':'valor', ...}
 ```
