@@ -48,3 +48,32 @@ almacenados no estan ordenados, debido a que cada clave es única.
 ```
 nombre_diccionario = {'clave':'valor', 'clave':'valor', ...}
 ```
+
+## Ejecución condicional
+
+### Expresiones booleanas
+
+Una expresion booleana es aquella que puede ser verdadera (True) o falsa (False)
+
+Los siguientes ejemplos usan el operador de compración (==), el cual compara los
+operadores y retorna True si son iguales y retorna False en caso contrario.
+
+### Operadores de compración
+
+```
+x == y 		# igual a
+x != y 		# no igual a, o distinto de 
+x >= y 		# mayor o igual
+x <= y 		# menor o igual
+x > y 		# mayor que 
+x < y 		# menor que 
+x is y 		# es lo mismo que
+x is not 	# no es lo mismo que
+```
+
+### Sintaxis de los condicionales if en python
+
+```
+if x == y: 
+	print('x es igual a y')
+```
