@@ -45,3 +45,13 @@ print(diccionario_datos['Anillos'])
 
 # diccionarios como valor clave en un diccionario
 diccionario_edades = {'Edades':{'Temporadas':[1991,1992,1993,1996,1997,1998]}}
+print(diccionario_edades['Edades'])
+
+# diccionario.keys() devuelve todas las claves del diccionario
+print(diccionario_edades.keys())
+
+# imprime todos los valors del diccionario
+print(diccionario_edades.values())
+
+# imprime el tamaño del diccionario
+print(len(mi_diccionario))
