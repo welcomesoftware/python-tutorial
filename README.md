@@ -77,3 +77,26 @@ x is not 	# no es lo mismo que
 if x == y: 
 	print('x es igual a y')
 ```
+
+## Captura de Excepciones usando try y except
+
+Existen estructuras de ejecución condicional en python para manejar tipos de errores
+esperados e inesperados, llamadas 'try / except'. La idea de *try* y *except* es que 
+si se sabe cierta secuencia de instrucciones puede generar un problema, y es posible
+añadir ciertas sentencias, para que sean ejecutadas en caso de error. Estas sentencias
+extras '**except**' serán ignoradas si no se produce ningún error.
+
+### Sintaxis de try / except
+
+```
+entrada = input('Introduza la Temperatura Fahrenheit: ')
+try: 
+		fahrenheit = float(entrada)
+		celcius = (fahrenheit - 32) * 5.0 / 9.0
+		print(celcius, 'Celcius')
+except: 
+		print('¡Valor no válido! ', fahrenheit)
+		print('Por favor, introduzca una temperatura')
+```
+
+
