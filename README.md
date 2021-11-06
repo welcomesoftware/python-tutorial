@@ -99,4 +99,30 @@ except:
 		print('Por favor, introduzca una temperatura')
 ```
 
+## Bucles o Ciclos
 
+La utilidad del bucle es repertir n cantidad de veces alguna linea, instrucción o 
+función de código sin tener que escribirlo tantas veces, solo escribirlo una vez.
+
+Habrá ocaciones en las cuales no sabremos cuantas veces se repirá un bloque o linea 
+de código.
+
+### Tipos de bucles en python
+
+**Determinados**: 
+1. Se ejecutan un número determinado de veces.
+2. Se sabe cuantas veces se va a ejecutar el código en el interior del bucle.
+
+**Indeterminados**: 
+1. Se ejecutan un número indeterminado de veces.
+2. No se sabe a priori cuantas veces se va a ejecutar el código en el interior del bucle.
+3. El número de veces que se ejecutará dependerá de las circunstancias durante la ejecución.
+
+### Bucle for
+
+**Sintaxis**: 
+
+```
+for variable in elemento_a_recorrer:
+	cuerpo del bucle
+```
