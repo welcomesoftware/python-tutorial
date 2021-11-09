@@ -126,3 +126,8 @@ de código.
 for variable in elemento_a_recorrer:
 	cuerpo del bucle
 ```
+
+### Continue, Pass, Else dentro de los bucles
+	**continue**: permite ejecutar una siguiente ejecución de un bucle.
+	**pass**: se utiliza para declarar nulo un bucle y que este mismo no se ejecute.
+	**else**: tiene la misma función que en un condicional if, solo que aplicado a bucles.
