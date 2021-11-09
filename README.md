@@ -91,12 +91,12 @@ extras '**except**' serán ignoradas si no se produce ningún error.
 ```
 entrada = input('Introduza la Temperatura Fahrenheit: ')
 try: 
-		fahrenheit = float(entrada)
-		celcius = (fahrenheit - 32) * 5.0 / 9.0
-		print(celcius, 'Celcius')
+	fahrenheit = float(entrada)
+	celcius = (fahrenheit - 32) * 5.0 / 9.0
+	print(celcius, 'Celcius')
 except: 
-		print('¡Valor no válido! ', fahrenheit)
-		print('Por favor, introduzca una temperatura')
+	print('¡Valor no válido! ', fahrenheit)
+	print('Por favor, introduzca una temperatura')
 ```
 
 ## Bucles o Ciclos
