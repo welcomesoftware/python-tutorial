@@ -131,3 +131,23 @@ for variable in elemento_a_recorrer:
 	**continue**: permite ejecutar una siguiente ejecución de un bucle.
 	**pass**: se utiliza para declarar nulo un bucle y que este mismo no se ejecute.
 	**else**: tiene la misma función que en un condicional if, solo que aplicado a bucles.
+
+## Generadores
+
+Son estructuras que extraen valores de una función y se almacenan en objetos iterables
+que se pueden recorrer. Estos valores se almacenan de uno en uno dentro del generador. 
+
+Cada vez que un generador almacena un valor, este permanece en un estado pausado o en una 
+suspención de estado hasta que se solicita el siguiente.
+
+### Ventajas de los Generadores
+	Son más eficientes que las funciones tradicionales.
+	Son muy utiles con las listas de valores infinitos.
+	Es muy util cuando necesitamos recibir los valores de uno en uno.
+
+### Sintaxis de un Generador
+
+```
+def generador(): 
+	yield valor
+```
